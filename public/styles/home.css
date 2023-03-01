@@ -1,0 +1,104 @@
+body{
+	background: #08121B;
+}
+
+.middle {
+  width: 100%;
+  text-align: center;
+}
+
+.btn{
+	border-radius: 0px 8px 0px 8px;
+  width: 100%;
+}
+
+.jumbotron.jumbotron-fluid{
+	background-image: url('/system_images/banner.jpg');
+	background-position: center center; 
+	background-size: cover; 
+	background-repeat: no-repeat;
+  border-bottom: 1px solid; 
+  margin-top: 30px;
+}
+
+.container.mt-5{
+  max-width: 100%;
+}
+
+.mt-0{
+  font-size:1.25rem;
+}
+
+.image-delete{
+  width:20px; 
+  height:20px; 
+  border:0; 
+  padding:0;
+}
+
+.card{
+  background: transparent;
+  vertical-align:middle;
+  border: 0;
+}
+
+.card-title{
+  color: #eee;
+}
+
+
+.display-4{
+  color: #eee;
+}
+
+.lead{
+  color: #fff;
+}
+
+.media{
+  border: 1px solid #eee; 
+  border-radius:6px; 
+  padding:8px; 
+  margin-bottom: 10px;
+}
+
+.media-body{
+  color: #eee; 
+  word-wrap: break-word; 
+  word-break: break-word;
+}
+
+.media-body.username{
+  font-size:11px; 
+  margin-bottom: -8px; 
+  width:auto; 
+  text-align:left;
+}
+
+.media-body.time{
+  font-size:11px; 
+  margin-bottom: -8px; 
+  width:auto; 
+  text-align:right;
+}
+
+.delete{
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+   transition: transform .7s ease-in-out;
+  margin-bottom:-8px;
+  padding: 0;
+  width:20px; 
+  height:20px;
+
+}
+.delete:hover{
+  transform: rotate(360deg);
+}
+
+.mr-3.rounded-circle{
+  width:36px; 
+  height: 36px;
+}

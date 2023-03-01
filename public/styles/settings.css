@@ -1,0 +1,103 @@
+body {
+  background-color: #eee;
+}
+
+.jumbotron{
+  display:flex;
+  width: 100%;
+}
+
+.container-box{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+
+.form-signin {
+  max-width: 100%;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form-signin h2 {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.form-signin a {
+  width: 100%;
+  margin-top: 6px;
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.form-signin a:hover {
+  opacity: 1;
+}
+
+.form-signin .form-signin-heading,
+.form-signin {
+  margin-bottom: 15px;
+}
+
+.form-signin {
+  font-weight: normal;
+}
+
+.form-signin .form-control {
+  box-shadow: none;
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-color: black;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="username"] {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+button.btn.btn-sm.btn-outline-primary.ml-auto {
+  width: 100%;
+  height: 40px;
+}
+
+
+.mr-3.rounded-circle{
+  width:36px; 
+  height: 36px;
+}

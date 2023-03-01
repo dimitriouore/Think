@@ -1,0 +1,120 @@
+body {
+  background-image: url("/system_images/longinbg.jpg");
+  background-size: cover;
+}
+
+.form-signin {
+  max-width: 400px;
+  padding: 50px;
+  margin: 10% auto;
+  background: rgba(255, 255, 255, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form-signin h2 {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.form-signin a {
+  width: 100%;
+  margin-top: 6px;
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.form-signin a:hover {
+  opacity: 1;
+}
+
+.form-signin .form-signin-heading,
+.form-signin {
+  margin-bottom: 15px;
+}
+
+.form-signin {
+  font-weight: normal;
+}
+
+.form-signin .form-control {
+  box-shadow: none;
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-color: black;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="username"] {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+button.btn.btn-sm.btn-outline-primary.ml-auto {
+  width: 100%;
+  height: 40px;
+}
+
+.sr-only {
+  margin-bottom: 5px;
+}
+
+
+.navbar.navbar-expand-lg.navbar-light{
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.container.mt-5.p-4{
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
