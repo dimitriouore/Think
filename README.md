@@ -2,7 +2,7 @@
 
 ## About Think
 
-Think is a small project like a social network. Users sign up and log in. They can type and save their thoughts. Everyone can see everyone's thoughts. If you can regret something you have saved you can deleted too. It is based on Laravel.
+Think is a small project like a social network. Users sign up and log in. They can type and save their thoughts. Everyone can see everyone's thoughts. If you regret something you have saved you can delete it. It is based on Laravel.
 
 ## License
 
