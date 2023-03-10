@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/dimitriouore/think/blob/main/public/system_images/banner.jpg" width="400" alt="Think Logo"></p>
+<p align="center"><img src="https://github.com/dimitriouore/think/blob/main/public/system_images/banner.jpg" width="900px" alt="Think Logo"></p>
 
 ## About Think
 
